@@ -1,0 +1,48 @@
+﻿<div ng-init="">
+    <p class="error">{{error}}</p>
+    <p>{{loadingMessage}}</p>
+    <div class="panel">
+
+        <div class="input-group">
+            <div class="row">
+                Nickname <input ng-model="nickname" class="form-control" />
+            </div>
+            <div class="row">
+                Pwd <input ng-model="pwd" class="form-control" />
+            </div>
+            <span class="input-group-btn">
+                <button ng-click="login();" class="btn btn-default">Login</button>
+            </span>
+        </div>
+        <hr />
+
+        <div class="input-group">
+            <div class="row">
+                Provincia<input ng-model="provinciaNombre" class="form-control" />
+            </div>
+            <span class="input-group-btn">
+                <button ng-click="buscar();" class="btn btn-default">Buscar Provincia</button>
+            </span>
+        </div>
+        <hr />
+        <table class="table table-striped">
+            <tbody>
+                <tr data-ng-repeat="item in todoList">
+                    <td>
+                        <input type="checkbox" ng-disabled="!item.edit">
+                        <span>{{item.nickname}}</span>: <span>{{item.nombre}}</span> <span>{{item.apellido}}</span>
+                        <input data-ng-show="item.edit" type="text" data-ng-model="editInProgressTodo.nombre" class="form-control" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+        <div class="input-group">
+            <input ng-model="newToDoName" class="form-control" />
+            <span class="input-group-btn">
+                <button ng-click="add();" class="btn btn-default">Add</button>
+            </span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\bin\Debug\netcoreapp3.1\ExamenTecnico.Models.deps.json
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\bin\Debug\netcoreapp3.1\ExamenTecnico.Models.dll
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\bin\Debug\netcoreapp3.1\ExamenTecnico.Models.pdb
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\obj\Debug\netcoreapp3.1\ExamenTecnico.Models.AssemblyInfoInputs.cache
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\obj\Debug\netcoreapp3.1\ExamenTecnico.Models.AssemblyInfo.cs
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\obj\Debug\netcoreapp3.1\ExamenTecnico.Models.csproj.CoreCompileInputs.cache
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\obj\Debug\netcoreapp3.1\ExamenTecnico.Models.dll
+C:\_Tests\Acciona\ExamenTecnicoAcciona\ExamenTecnicoModels\obj\Debug\netcoreapp3.1\ExamenTecnico.Models.pdb
